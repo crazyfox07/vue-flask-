@@ -9,7 +9,7 @@ Date: 2018/7/13 17:37
 import datetime
 import redis
 # redis
-pool = redis.ConnectionPool(host='99.48.58.244', port=6379, db=13, password='mime@123')
+pool = redis.ConnectionPool(host='', port=6379, db=13, password='')
 # r = redis.Redis(connection_pool=pool)
 r = redis.StrictRedis(connection_pool=pool)
 
